@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3ul-88-Lap">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3ul-88-Lap">
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.21960783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
@@ -24,9 +24,9 @@
                         <color key="backgroundColor" red="0.1725490093" green="0.1764705926" blue="0.18823529780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3ul-88-Lap" secondAttribute="bottom" id="Cc1-39-UOf"/>
+                            <constraint firstItem="3ul-88-Lap" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JOF-lU-5g5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3ul-88-Lap" secondAttribute="trailing" id="Jre-Tg-ug9"/>
                             <constraint firstItem="3ul-88-Lap" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ajh-GN-4bM"/>
-                            <constraint firstItem="3ul-88-Lap" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pfJ-p3-d83"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Friends" id="G1o-u1-NXW"/>

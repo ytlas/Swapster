@@ -15,6 +15,8 @@
 		0CA14FFF2A9DACB500A12876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA14FFD2A9DACB500A12876 /* LaunchScreen.storyboard */; };
 		0CA150092A9DB27600A12876 /* FriendNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA150072A9DB27600A12876 /* FriendNotificationCell.swift */; };
 		0CA1500A2A9DB27600A12876 /* FriendNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA150082A9DB27600A12876 /* FriendNotificationCell.xib */; };
+		0CA1500D2A9DB96F00A12876 /* FriendsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1500C2A9DB96F00A12876 /* FriendsHeaderView.xib */; };
+		0CA1500F2A9DB97900A12876 /* FriendsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA1500E2A9DB97900A12876 /* FriendsHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0CA150002A9DACB500A12876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA150072A9DB27600A12876 /* FriendNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendNotificationCell.swift; sourceTree = "<group>"; };
 		0CA150082A9DB27600A12876 /* FriendNotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendNotificationCell.xib; sourceTree = "<group>"; };
+		0CA1500C2A9DB96F00A12876 /* FriendsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsHeaderView.xib; sourceTree = "<group>"; };
+		0CA1500E2A9DB97900A12876 /* FriendsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +79,20 @@
 		0CA150062A9DB1A500A12876 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				0CA1500B2A9DB95400A12876 /* HeaderView */,
 				0CA150072A9DB27600A12876 /* FriendNotificationCell.swift */,
 				0CA150082A9DB27600A12876 /* FriendNotificationCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		0CA1500B2A9DB95400A12876 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				0CA1500C2A9DB96F00A12876 /* FriendsHeaderView.xib */,
+				0CA1500E2A9DB97900A12876 /* FriendsHeaderView.swift */,
+			);
+			path = HeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,7 @@
 				0CA14FFF2A9DACB500A12876 /* LaunchScreen.storyboard in Resources */,
 				0CA14FFC2A9DACB500A12876 /* Assets.xcassets in Resources */,
 				0CA1500A2A9DB27600A12876 /* FriendNotificationCell.xib in Resources */,
+				0CA1500D2A9DB96F00A12876 /* FriendsHeaderView.xib in Resources */,
 				0CA14FFA2A9DACB300A12876 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +171,7 @@
 				0CA14FF72A9DACB300A12876 /* ViewController.swift in Sources */,
 				0CA14FF32A9DACB300A12876 /* AppDelegate.swift in Sources */,
 				0CA150092A9DB27600A12876 /* FriendNotificationCell.swift in Sources */,
+				0CA1500F2A9DB97900A12876 /* FriendsHeaderView.swift in Sources */,
 				0CA14FF52A9DACB300A12876 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
